@@ -34,4 +34,7 @@ of a certain symmetric function.
 
 * The script openproblems/m3v4g11.py generates a CNF formula
  with 1831 variables and 642938 clauses. Most probably, it is 
- unsatisfiable. But if it is satisfiable, then C(MOD_3) < 2.75n+O(1).
+ unsatisfiable. But if it is satisfiable, then C(MOD_3) <= 2.75n+O(1).
+* The script openproblems/m5v2g8.py generates a CNF formula 
+ with 797 variables and 3M clauses. If satisfiable, then 
+ CMOD(MOD_5) <= 4n+O(1).
